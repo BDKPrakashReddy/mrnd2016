@@ -29,10 +29,11 @@ void print_tuples(int a[],int size,int N){
 				}
 			}
 		}
-		for(k=i+1;k<size;k++,i++){		
+		for(k=i+1;k<size;k++){		
 		if(a[i]!=a[k])					//if same elements present just incrementing..
 			break;
 		}
+		i=k-1;
 	}
 	
 }
